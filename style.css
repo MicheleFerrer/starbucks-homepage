@@ -69,7 +69,7 @@ body{
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 .product img {
@@ -134,13 +134,14 @@ body{
     background-color:hsla(0,0%,100%,.8);
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
     *{
         margin: 0;
         padding: 0;
     }
     .navbar-container{
     width: 100%;
+    overflow-wrap: initial;
     }
 .body{
     width: 100%;
@@ -161,7 +162,7 @@ body{
 .product-right{
     margin: 0;
     padding: 5px;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -169,10 +170,10 @@ body{
     left: 0;
     align-items: center;
     column-width: 100%;
+    overflow: hidden;
 }
 .summer-img{
     max-width: 100%;
-    width: 600px;
 }
 
 #summer1-img{
