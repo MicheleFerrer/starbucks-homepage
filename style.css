@@ -151,7 +151,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
-    padding: 0;
+    padding: 10px;
     width: 100%;
   }
 .product-container,
@@ -161,7 +161,7 @@ body{
 .product-left,
 .product-right{
     margin: 0;
-    padding: 5px;
+    padding: 50px;
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -197,12 +197,19 @@ body{
 }
     .product-description{
         font-size: 1.2rem;
+        padding: 0 50px;
+        max-width: 300px;
+        padding-bottom: 30px;
     }
 
     .product-title{
         font-size: 1.7rem;
+        padding: 0 50px;
+        max-width: 400px;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 10px;
     }
-  
   }
 
 
