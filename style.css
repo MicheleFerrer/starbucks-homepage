@@ -65,7 +65,8 @@ body{
     background-color: rgba(0, 0, 0, 0.7);
 }
 .sign-in:hover{
-    background-color: rgba(0, 0, 0, 0.06);
+    background-color: #00754a;
+    color: white;
 }
 
 .container {
@@ -100,9 +101,9 @@ body{
     color: white;
     font-size: 2rem;
     font-size: 34px;
-                                margin-top: 50px;
-                                margin-left: 10px;
-                                color: white;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: white;
 }
 .product-container {
     margin: 40px 0px 40px 0px;
@@ -127,10 +128,12 @@ body{
     margin: 0;
     justify-content: center;
 }
-
-
 .product-button:hover {
     background-color:hsla(0,0%,100%,.8);
+}
+.footer {
+    padding: 50px;
+    text-align: center;
 }
 
 @media screen and (max-width: 750px) {
@@ -140,11 +143,14 @@ body{
     }
     .navbar-container{
     width: 100%;
-    overflow-wrap: initial;
+    overflow:hidden;
+    margin-bottom: 0;
     }
+
 .body{
     width: 100%;
 }
+
   .navbar-left,
   .navbar-right{
     display: flex;
@@ -152,6 +158,7 @@ body{
     margin-bottom: 0;
     padding: 10px;
     width: 100%;
+    padding: 0;
   }
 .product-container,
 .product,
@@ -218,7 +225,3 @@ margin-bottom: 10px;
   }
 
 
-.footer {
-    padding: 50px;
-    text-align: center;
-}
